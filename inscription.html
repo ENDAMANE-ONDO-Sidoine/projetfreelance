@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire d'inscription</title>
+    <link rel="icon" href="./images/logo_freelance.png" type="image/x-icon">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<script src="tailwindcss.js"></script>
+</head>
+<body >
+    <div class="justify-center p-20 bg-black bg-cover bg-center" style="background-image: url(./images/xd.gif);">
+    <div class=" max-w-md mx-auto mt-4 p-6 bg-white shadow-md rounded-[5px] opacity-90">
+        <h2 class="text-4xl font-semibold mb-4 text-center text-gray-600">Inscription</h2>
+        <form>
+          <div class="mb-4">
+            <label for="username" class="block text-gray-600">Nom d'utilisateur</label>
+            <input type="text" id="username" name="username" class="border rounded-lg px-3 py-2 w-full focus:outline-none focus:border-blue-400  ">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-600">Adresse e-mail</label>
+            <input type="email" id="email" name="email" class="border rounded-lg px-3 py-2 w-full focus:outline-none focus:border-blue-400">
+          </div>
+          <div class="mb-4">
+            <label for="password" class="block text-gray-600">Mot de passe</label>
+            <input type="password" id="password" name="password" class="border rounded-lg px-3 py-2 w-full focus:outline-none focus:border-blue-400">
+          </div>
+          <div class="mb-4">
+            <label for="confirm_password" class="block text-gray-600">Confirmer le mot de passe</label>
+            <input type="password" id="confirm_password" name="confirm_password" class="border rounded-lg px-3 py-2 w-full focus:outline-none focus:border-blue-400">
+          </div>
+            <div class="flex justify-between">
+                <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-yellow-600 focus:outline-none focus:bg-blue-600">S'inscrire</button>
+                <button  class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 focus:outline-none focus:bg-blue-600"><a href="index.html">Retour</a></button>
+            </div>          
+        </form>
+      </div> 
+    </div>     
+</body>
+</html>
